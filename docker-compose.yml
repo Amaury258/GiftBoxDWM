@@ -31,7 +31,7 @@ services:
     ports:
       - "28002:80"
     volumes:
-      - ./api/public:/var/www/html
+      - ./appli/public:/var/www/html
       - ./api/src:/var/www/src
     working_dir: /var/www/src
     networks:
